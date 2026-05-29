@@ -7,7 +7,7 @@ const SECONDS_PER_ROW = SAMPLES_PER_ROW / SAMPLE_RATE;
 
 const deckgl = new deck.DeckGL({
     container: 'map',
-    mapStyle: 'mapbox://styles/mapbox/dark-v11',
+    mapStyle: 'https://demotiles.maplibre.org/style.json',
     mapboxApiAccessToken: MAPBOX_TOKEN,
     initialViewState: {
         longitude: -165.98, //Akutan Center
