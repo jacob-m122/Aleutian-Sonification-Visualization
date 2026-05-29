@@ -1,7 +1,7 @@
 // --- 1. CONFIGURATION ---
 // IMPORTANT: Do not commit the real token to GitHub. 
 // Set this to your restricted token after pushing.
-const MAPBOX_TOKEN = 'YOUR_RESTRICTED_MAPBOX_TOKEN_HERE'; 
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiamFjb2ItbTA0MTIiLCJhIjoiY21wcTl1ZThxMGs1eTJxcHZ4OGxoMHFtciJ9.gOAzkTlYpUNAe__7BT0utQ'; 
 const SAMPLES_PER_ROW = 1637;
 const SAMPLE_RATE = 44100;
 const SECONDS_PER_ROW = SAMPLES_PER_ROW / SAMPLE_RATE;
