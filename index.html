@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aleutian Sonification</title>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div id="control-panel">
+        <h2>Akutan Volcanic Activity</h2>
+        <audio id="audio-player" controls>
+            <source src="aleutian_sonification.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
