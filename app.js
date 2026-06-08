@@ -28,9 +28,9 @@ fetch('akutan_map_data.json')
     });
 
 function getEventColor(d) {
-    if (d.FI < 0.60) return [255, 30, 30, 255];      // Red: Fluid/Magma
+    if (d.FI < 0.60) return [255, 30, 30, 255];      // Red: VT Fluid/Magma
     if (d.depth > 0.25) return [30, 150, 255, 255];  // Blue: Deep Rock Fracture
-    return [255, 220, 0, 255];                       // Yellow: Surface Fracture
+    return [255, 220, 0, 255];                       // Yellow: LP Fluid resonance
 }
 
 function renderLoop() {
